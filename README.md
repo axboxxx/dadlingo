@@ -10,6 +10,8 @@ The live build currently contains one complete vertical slice:
 - meaning recognition, four-pair matching, reading comprehension and transfer
 - delayed evidence visual and English support
 - mobile-first layout
+- a persistent `Tester：跳關` control for remote stage-by-stage review; jumped
+  sessions are visibly marked test-only and never receive a learning score
 - no analytics, account, network API, or learner-data upload
 
 This is an evaluation sample, not the completed curriculum.
