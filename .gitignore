@@ -1,0 +1,13 @@
+.DS_Store
+*.wav
+*.mp3
+*.m4a
+*.onnx
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+.venv/
+.venv-*/
+__pycache__/
+node_modules/
