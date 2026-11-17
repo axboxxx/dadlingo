@@ -4,17 +4,24 @@ Public evaluation build of a Cantonese-first Traditional Chinese literacy game.
 
 ## Current build
 
-The live build currently contains one complete vertical slice:
+The live site is a full assessment hub with four clearly separated surfaces:
 
-- E03 — `遊樂場尋寶`
-- meaning recognition, four-pair matching, reading comprehension and transfer
-- delayed evidence visual and English support
-- mobile-first layout
-- a persistent `Tester：跳關` control for remote stage-by-stage review; jumped
-  sessions are visibly marked test-only and never receive a learning score
-- no analytics, account, network API, or learner-data upload
+- `full-game.html` — the current best full work copy: 920 characters, 100
+  lessons, eight question types, progress export/import and Manga Companion.
+  Its tester control can open any lesson directly, and it uses a separate
+  review storage key so testing does not overwrite Muse-original progress.
+- `muse-original.html` — checksum-identical Meta Muse source for comparison.
+- `new-lessons-review.html` — 12 authored beyond-920 drafts covering 50
+  proposed first-teach characters. These are editorial review material, not
+  learner-ready lessons.
+- `e03.html` — the newer learner-facing vertical-slice experiment, with a
+  persistent stage-jump control for remote review.
 
-This is an evaluation sample, not the completed curriculum.
+The wider 3,171-character ambition is not presented as complete. Of the 2,251
+characters beyond the existing 920, 50 are represented in the 12 authored
+drafts and the remaining 2,201 currently have mechanical allocation only.
+
+No page uses analytics, an account, a network API, or learner-data upload.
 
 ## Audio phases
 
@@ -28,10 +35,8 @@ flowchart LR
 Phase 1 uses only a Cantonese voice available on the learner's device and must
 remain usable without audio. It never falls back to Mandarin. Phase 2 may add an
 optional higher-quality male/female voice path after pronunciation, rights and
-device integration pass review.
-
-The current E03 sample intentionally shows audio as unavailable because its
-voice assets have not passed that later gate.
+device integration pass review. E03 intentionally shows audio as unavailable
+because its voice assets have not passed that later gate.
 
 ## Rights
 

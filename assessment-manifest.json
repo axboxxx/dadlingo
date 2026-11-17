@@ -1,0 +1,23 @@
+{
+  "built_at": "2026-11-17",
+  "scope": "public_assessment_not_final_release",
+  "facts": {
+    "playable_characters": 920,
+    "playable_lessons": 100,
+    "authored_beyond_920_drafts": 12,
+    "proposed_first_teach_characters_in_drafts": 50,
+    "allocated_gap_characters": 2251,
+    "available_beyond_920_lessons": 0
+  },
+  "protected_sources": {
+    "muse_original_sha256": "21af3ab37347eb914657e320d88960f8cebd4e5f6708190993780a031a71596b",
+    "full_work_copy_sha256": "a456b1a801247113f2f570a98e9cfe28fa4b2d11c764d6ada16d71997939bbcd"
+  },
+  "outputs": {
+    "index.html": "d6a369b9e1ef26bc51cb8f768d9d2d9a8b763f92747f2ceb9f70f3e96cdcd29c",
+    "full-game.html": "bf4718f2cc49b9e903504a3a4ac5196bd52a6b749b46ff7df69e72b12e2fd922",
+    "muse-original.html": "21af3ab37347eb914657e320d88960f8cebd4e5f6708190993780a031a71596b",
+    "new-lessons-review.html": "76fa0dee80384a5a444adc899a40991cae9552be8e35bdbe9f36a09408398097",
+    "e03.html": "f1fe4bf552de9f6c9de142196602696cf542646ced81989f881c70f34ac95c25"
+  }
+}
